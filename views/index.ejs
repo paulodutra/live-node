@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>EJS</title>
+    </head>
+    <body>
+        <h1>Usando o EJS template engine que por padrão usa a pasta view</h1>
+        <%= msg %>
+
+        <form action='/send' method="POST">
+            <input type="text" name="name" placeholder="Name:" />
+            <input type="text" name="age" placeholder="Age:" />
+            <button type="submit">Send</button>
+        </form>
+    </body>
+</html>
